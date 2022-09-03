@@ -39,7 +39,6 @@ function game(){
         if(player === 'rock' || player === 'paper' || player === 'scissors'){
             const computerSelection = computerPlay();
             console.log(playRound(player, computerSelection));
-           
         }
         else{
             alert('Enter something valid!');
