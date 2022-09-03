@@ -22,7 +22,7 @@ function playRound(playerSelection, computerSelection){
         playerScore++;
     }
     else{
-        result =  `PlayerSelection: ${playerSelection} \nComputerSelection: ${computerSelection} \nYou lose computer beats you!`;
+        result =  `PlayerSelection: ${playerSelection} \nComputerSelection: ${computerSelection} \nYou lose ${computerSelection} beats ${playerSelection}!`;
         computerScore++;
     }
     return result;
