@@ -11,5 +11,5 @@ https://marycorreia12.github.io/Brainnest_JAVASCRIPT_Project
 ## How to play the game
 - Click in the link above.
 - Press CTRL + SHIFT + C.
-- Go to console line and write game() and press ENTER;
+- Go to console line and write game(); and press ENTER.
 - And you can start playing!
