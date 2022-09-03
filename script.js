@@ -29,31 +29,32 @@ function playRound(playerSelection, computerSelection){
 } 
 /* const computerSelection = computerPlay(); */
 /* console.log(playRound('paper', computerPlay())); */
+
 let computerScore = 0;
 let playerScore = 0;
 
 function game(){
     for(let i = 0; i < 5; i++){
-        let player = prompt("Enter Rock, Paper or Scissors");
-        if(player){
-            let playerSelection = player.trim().toLowerCase();
+        let player = prompt("Enter Rock, Paper or Scissors").trim().toLowerCase();
+        if(player === 'rock' || player === 'paper' || player === 'scissors'){
             const computerSelection = computerPlay();
-            console.log(playRound(playerSelection, computerSelection));
+            console.log(playRound(player, computerSelection));
+           
         }
         else{
-            alert('Enter something!')
+            alert('Enter something valid!');
+            i--;
         }
     }
 
     if(playerScore > computerScore){
-        console.log('You Win!');
+        console.log('GAME OVER*********You Win!');
     }
     else if(playerScore < computerScore){
-        console.log('You lose!');
+        console.log('GAME OVER*********You lose!');
     }
     else{
-        console.log('It\'s a tie');
+        console.log('GAME OVER********It\'s a tie');
     }
 }
 
-game();
