@@ -133,3 +133,52 @@ body{
     opacity: 0.8;
     transition: .2s ease-in-out;
 }
+
+@media(max-width: 768px){
+    .title{
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 80px;
+        width: 300px;
+    }
+
+    .btn{
+        width: 80px;
+        height: 100px;
+    }
+
+    .player-container h1{
+        font-size: 36px;
+        line-height: 37px;
+    }
+}
+
+@media(max-width: 580px){
+    body{
+        flex-direction: column;
+        gap: 80px;
+    }
+    .title{
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 400px;
+    }
+    .title-container, .player-container{
+        flex: 0;
+    }
+
+    .player-container{
+        background: none;
+    }
+
+    .player-container h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    
+
+    
+}
