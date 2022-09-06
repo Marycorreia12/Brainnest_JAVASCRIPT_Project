@@ -85,8 +85,8 @@ function playAgain(){
         finalResults.innerHTML = '';
         playerScore = 0;
         computerScore = 0;
-        player1.innerHTML = `PlayerSelection: ${playerScore}`;
-        player2.innerHTML = `ComputerSelection: ${computerScore}`; 
+        player1.innerHTML = `You: ${playerScore}`;
+        player2.innerHTML = `Computer: ${computerScore}`; 
         ROCK_BTN.removeAttribute('disabled', '');
         PAPER_BTN.removeAttribute('disabled', '');
         SCISSORS_BTN.removeAttribute('disabled', '');
