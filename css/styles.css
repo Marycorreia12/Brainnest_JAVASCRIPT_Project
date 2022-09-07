@@ -126,7 +126,7 @@ body{
     text-align: center;
     color: #FFFFFF;
     border: none;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .playAgain:hover{
@@ -157,7 +157,7 @@ body{
 @media(max-width: 580px){
     body{
         flex-direction: column;
-        gap: 80px;
+        gap: 40px;
     }
     .title{
         width: 100%;
